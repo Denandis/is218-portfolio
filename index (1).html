@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where Do I Fit in AI? — Career Field Guide (Nandish Desai, IS218)</title>
+<style>
+  :root{
+    --ink:#17251f; --muted:#5b6b62; --line:#e2eae5; --bg:#fbfdfb;
+    --accent:#0f7a56; --accent2:#2f6df0; --card:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:'Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.6;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px;}
+  header{background:linear-gradient(135deg,#0f3a2c,#176b4d);color:#fff;padding:54px 0 40px;}
+  .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:12px;color:#a7e6cf;font-weight:700;}
+  h1{font-size:clamp(28px,5.5vw,44px);margin:8px 0 10px;line-height:1.12;}
+  header p{color:#d4ece2;font-size:17px;margin:0;max-width:650px;}
+  .badge{display:inline-block;margin-top:18px;font-size:12.5px;background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.25);padding:6px 12px;border-radius:20px;color:#eafff6;}
+  nav{position:sticky;top:0;background:rgba(251,253,251,0.95);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);z-index:5;}
+  nav .wrap{display:flex;gap:16px;flex-wrap:wrap;padding:12px 22px;font-size:14px;}
+  nav a{color:var(--muted);text-decoration:none;font-weight:600;}
+  nav a:hover{color:var(--accent);}
+  section{padding:34px 0;border-bottom:1px solid var(--line);}
+  h2{font-size:24px;margin:0 0 6px;}
+  .num{color:var(--accent);font-weight:800;margin-right:8px;}
+  .lead{color:var(--muted);margin-top:0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0;}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px;}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:#eef5f1;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);}
+  .role{font-weight:700;}
+  .src{font-size:14px;margin:10px 0;padding-left:14px;border-left:3px solid var(--accent);}
+  .src a{color:var(--accent);text-decoration:none;}
+  .src a:hover{text-decoration:underline;}
+  .src .meta{color:var(--muted);font-size:12.5px;}
+  .chosen{outline:2px solid var(--accent);}
+  .pill{font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;}
+  .observed{background:#eafaf2;color:#0f7a56;}
+  .planned{background:#fff3e0;color:#9a5b00;}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:640px){.two{grid-template-columns:1fr;}}
+  .mock{border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:12.5px;}
+  .mock .bar{padding:8px 12px;font-weight:700;color:#fff;}
+  .mock .body{padding:12px;background:#fff;color:var(--muted);}
+  footer{padding:30px 0 60px;color:var(--muted);font-size:13.5px;}
+  footer a{color:var(--accent);}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="eyebrow">IS218 · Career Research · Portfolio Plan</div>
+  <h1>Where do I fit in AI?</h1>
+  <p>Using real job postings to choose a direction — and to sharpen my GitHub, LinkedIn, and portfolio. A field guide by an NJIT IT student who works in healthcare.</p>
+  <div class="badge">Research &amp; planning · Reviewed Nov 23, 2026 · Nandish Desai</div>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#q">Question</a>
+  <a href="#roles">3 real roles</a>
+  <a href="#compare">Compare directions</a>
+  <a href="#brand">Two layouts</a>
+  <a href="#stories">User stories</a>
+  <a href="#checks">Checks</a>
+</div></nav>
+
+<div class="wrap">
+
+<section id="q">
+  <h2><span class="num">01</span>The question &amp; who it's for</h2>
+  <div class="card">
+    <strong>Question.</strong> Which AI direction fits me best right now — building AI solutions in the field (Forward-Deployed / Applied AI Engineering) or building AI inside healthcare — and what do real employers actually ask for?
+  </div>
+  <div class="card">
+    <strong>Reader.</strong> An early-career candidate like me — an NJIT student weighing AI directions in the NY/NJ area. It also has to work for a recruiter skimming in under a minute.
+  </div>
+</section>
+
+<section id="roles">
+  <h2><span class="num">02</span>Three real job postings (evidence)</h2>
+  <p class="lead">All opened and checked Nov 23, 2026. Postings expire — these are snapshots.</p>
+  <table>
+    <tr><th>Role (type)</th><th>Employer · Pay</th><th>What they ask for</th></tr>
+    <tr>
+      <td class="role">Forward Deployed Software Engineer <em>(FDE)</em></td>
+      <td>Palantir · $135K–$200K</td>
+      <td>Work directly with customers to build data-driven solutions; Python, Java, TypeScript/JavaScript; architecture + executive communication.</td>
+    </tr>
+    <tr>
+      <td class="role">Sr. Machine Learning Research Engineer, AIML <em>(AI tech role)</em></td>
+      <td>Apple · $184.7K–$324.8K + equity</td>
+      <td>Polished coding; deep ML &amp; computational science; research variant values ML-conference publications.</td>
+    </tr>
+    <tr>
+      <td class="role">AI/ML Engineer <em>(AI in healthcare)</em></td>
+      <td>Optum (UnitedHealth) · $99K–$176K</td>
+      <td>Design/deploy Generative AI &amp; ML (LLMs, RAG, agentic frameworks) for healthcare claims; Python, Databricks, PySpark, Git; healthcare-data compliance.</td>
+    </tr>
+  </table>
+  <div class="card">
+    <strong>Skills that repeat (what to learn):</strong> Python (nearly universal), a cloud platform (AWS/Azure/GCP), an ML framework (PyTorch/TensorFlow), MLOps / deployment, and Git/GitHub. FDE roles add customer-facing communication; the healthcare role adds compliance.
+  </div>
+  <div class="card">
+    <strong>Eligibility &amp; my gaps (honest):</strong>
+    <ul>
+      <li><strong>Palantir FDE</strong> — wants a degree + ~1 yr experience and strong communication; some roles need U.S.-person status/clearance. <em>Gap:</em> I'm still a student; need more production + customer-facing work.</li>
+      <li><strong>Apple ML Engineer</strong> — senior, deep ML, often publications. <em>Gap:</em> above entry level; I'd target a junior ML role and build real ML depth first.</li>
+      <li><strong>Optum AI/ML</strong> — ~3+ yrs, Master's preferred, LLMs/Databricks, healthcare data. <em>Gap:</em> need the degree + ML/cloud practice. <em>Advantage:</em> I already work in healthcare (Optum).</li>
+    </ul>
+    <span style="font-size:13px;color:var(--muted);">Personal eligibility circumstances stay in my private Canvas reflection, per the assignment.</span>
+  </div>
+</section>
+
+<section id="compare">
+  <h2><span class="num">03</span>Two directions compared — and my lean</h2>
+  <div class="two">
+    <div class="card">
+      <strong>A — Applied / Forward-Deployed AI Engineering</strong>
+      <p class="lead">Embed with customers, build &amp; deploy AI fast. Python + full-stack + strong communication. High pay, very competitive, true entry-level roles are rare.</p>
+    </div>
+    <div class="card chosen">
+      <strong>B — AI in Healthcare &nbsp;⟵ my lean</strong>
+      <p class="lead">Build AI/ML for health systems (claims, patient data). Python + ML/LLMs + healthcare data &amp; compliance. I already work at Optum — a real, rare domain advantage, and a huge employer in my area.</p>
+    </div>
+  </div>
+  <p>I'm leaning <strong>Direction B</strong> near-term because my pharmacy/Optum experience is a genuine edge — while deliberately building the Python + communication strengths that keep Direction A open. My portfolio projects will have a healthcare-AI flavor.</p>
+</section>
+
+<section id="brand">
+  <h2><span class="num">04</span>Two brand / layout directions</h2>
+  <div class="two">
+    <div class="mock">
+      <div class="bar" style="background:#176b4d;">Direction 1 — "Field Guide"</div>
+      <div class="body">Clean, editorial, numbered sections, one accent color, scannable cards. Reads like a printed reference. Best for helping a reader choose.</div>
+    </div>
+    <div class="mock">
+      <div class="bar" style="background:#1c2230;">Direction 2 — "Builder / Terminal"</div>
+      <div class="body">Dark theme, monospace accents, projects &amp; GitHub front and center. Best for impressing a recruiter fast.</div>
+    </div>
+  </div>
+  <p class="lead" style="margin-top:12px;">Plan: prototype both heroes, get peer feedback, then pick. Current lean — Field Guide for research, Builder for the portfolio home.</p>
+</section>
+
+<section id="stories">
+  <h2><span class="num">05</span>User stories</h2>
+  <div class="card">
+    <ol>
+      <li>As a <strong>recruiter</strong>, I want to see top skills and projects within a minute so I can judge fit quickly.</li>
+      <li>As a <strong>fellow student</strong>, I want two AI directions compared with real postings so I can choose one to aim at.</li>
+      <li>As a <strong>skeptical reader</strong>, I want to open the actual postings cited so I can trust the claims.</li>
+      <li>As a <strong>learner</strong>, I want to see which skills repeat so I know what to study next.</li>
+      <li>As <strong>Nandish</strong>, I want the site to link my GitHub and LinkedIn so readers can verify my work.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="checks">
+  <h2><span class="num">06</span>Checks — honest status</h2>
+  <table>
+    <tr><th>Check</th><th>Status</th></tr>
+    <tr><td>All 3 postings opened &amp; dated (Nov 23, 2026)</td><td><span class="pill observed">OBSERVED</span></td></tr>
+    <tr><td>Skill-overlap read across postings</td><td><span class="pill observed">OBSERVED</span> (informal, not a formal count)</td></tr>
+    <tr><td>Peer opens a source &amp; flags a confusing part</td><td><span class="pill planned">PLANNED</span></td></tr>
+    <tr><td>Chosen layout built</td><td><span class="pill planned">PLANNED</span></td></tr>
+  </table>
+</section>
+
+<section id="sources">
+  <h2><span class="num">07</span>Sources</h2>
+  <div class="src"><a href="https://illinoisjoblink.illinois.gov/jobs/11980201">Palantir — Forward Deployed Software Engineer</a><div class="meta">Checked Nov 23, 2026. FDE responsibilities + stack.</div></div>
+  <div class="src"><a href="https://jobs.anitab.org/companies/apple/jobs/86025766-senior-machine-learning-research-engineer-aiml">Apple — Senior Machine Learning Research Engineer, AIML</a><div class="meta">Checked Nov 23, 2026. Pay band + expectations.</div></div>
+  <div class="src"><a href="https://careers.unitedhealthgroup.com/job/22563606">Optum / UnitedHealth — AI/ML Engineer</a><div class="meta">Checked Nov 23, 2026. Healthcare AI responsibilities + stack.</div></div>
+  <div class="src"><a href="https://365datascience.com/career-advice/career-guides/ai-engineer-job-outlook-2025/">365 Data Science — AI Engineer job-posting analysis (1,000 postings)</a><div class="meta">Checked Nov 23, 2026. Evidence on repeating skills (Python, AWS/Azure).</div></div>
+</section>
+
+<footer>
+  IS218 · Building Web Applications (Fall 2026) · Research &amp; planning.<br>
+  Repository: <a href="#">add your repo link</a> ·
+  Creative-project research site: <a href="https://denandis.github.io/is218-creative-project/">Streak notebook</a> ·
+  Reviewed Nov 23, 2026.
+</footer>
+
+</div>
+</body>
+</html>
